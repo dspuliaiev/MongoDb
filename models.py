@@ -2,7 +2,7 @@ from bson import json_util
 from mongoengine import connect, Document, StringField, ReferenceField, ListField, CASCADE
 
 
-connect(db="hw", host="mongodb+srv://dspuliaiev:Pp4125NZf4h4JG22@cluster0.j1fuex0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+connect(db="hw", host="mongodb+srv://dspuliaiev:password@cluster0.j1fuex0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 class Author(Document):
